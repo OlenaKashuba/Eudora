@@ -1,7 +1,7 @@
  @font-face {
     font-family: BebasNeue; 
     src: url(../fonts/BebasNeue.otf); 
-   }
+}
 
 body {
 
@@ -28,15 +28,16 @@ body {
 }
 
 
+
 /* HEADER */
 /* NAVIGATION */
+
 
 
 .main-header {
 	height: 1322px;
 	box-sizing: border-box;
 	color: #ffffff;
-
 }
 
 .background {
@@ -74,7 +75,6 @@ body {
 	margin: 0px;
 	padding: 0px;
 	list-style: none;	
-
 }
 
 .main-menu li {
@@ -90,7 +90,6 @@ body {
 	margin-bottom: 110px;
 	text-align: center;
 	margin-right: 40px;
-
 }
 
 .main-menu li:last-child {
@@ -102,7 +101,6 @@ body {
 	margin-left: 60px;
 	position: relative;
 	top: 15px;
-
 }
 
 .main-menu a {
@@ -121,9 +119,6 @@ body {
 
 /* PROMO */
 
-.promo {
-
-}
 
 .promo-description {
 	width: 1010px;
@@ -132,7 +127,7 @@ body {
 	margin-top: 300px;
 }
 
-  .promo h2 {
+.promo h2 {
   	margin: 0;
 	padding: 0;
 	font-family: 'Playfair Display', serif;
@@ -142,7 +137,7 @@ body {
 	line-height: 72px;
 	color: #ffffff;
 	margin-bottom: 50px;
-  }
+}
 
 .promo p {
 	margin: 0;
@@ -190,7 +185,11 @@ body {
 	background-color: rgba(229,146,5,0.7);
 	border: 2px solid rgba(229,146,5,0.1);	
 }
+
+
 /* FOOD MENU TOP */ 
+
+
 
 .food-menu {
 	margin-bottom: 146px;
@@ -202,8 +201,6 @@ body {
 	margin: 0 auto;
 	margin-top: 128px;
 	margin-bottom: 140px;
-	
-
 }
 
 .food-menu h2 {
@@ -285,7 +282,6 @@ body {
 
 .food-item .btn {
 	margin-left: 35px;
-
 }
 
 .food-item-center .btn {
@@ -297,6 +293,7 @@ body {
 	margin: 0 auto;
 	text-align: center;
 }
+
 .food-item-center h4 {
 	padding: 0;
 	margin: 0;
@@ -304,8 +301,8 @@ body {
 	font-size: 20px;
 	line-height: 48px;
 	font-weight: bold;
-
 }
+
 .food-item .food-price {
 	display: block;
 	margin-bottom: 20px;
@@ -326,7 +323,10 @@ body {
 	line-height: 48px;
 }
 
+
 /* OFFER */
+
+
 .offer {
 	background-color: #e59205;
 	height: 565px;
@@ -355,11 +355,12 @@ body {
 	font-size: 72px;
 	line-height: 72px;
 	margin-top: 140px;
-
 }
 
 
 /* CHOOSE US */
+
+
 
 .advantages {
 	margin-bottom: 140px;
@@ -394,11 +395,13 @@ body {
 	color: #a5a8bf;
 	margin-bottom: 88px;
 }
+
 .advantages-list ul {
 	margin: 0;
 	padding: 0;
 	list-style: none;
 }
+
 .advantages-list-item {
 	box-sizing: border-box;
 	width: 490px;
@@ -406,7 +409,15 @@ body {
 	padding-right: 40px;
 	text-align: center;
 	float: left;
+	margin-bottom: 40px;
+}
+
+.icon-container {
+	width: 90px;
+	height: 90px;
 	margin-bottom: 20px;
+	margin-top: 20px;
+	margin: 0 auto;
 }
 
 .item-icon-1 {
@@ -414,8 +425,6 @@ body {
     height: 69px;
     background: url(../img/spritesheet.png) no-repeat -93px -89px;
 	margin: 0 auto;
-	margin-bottom: 20px;
-	margin-top: 20px;
 }
 
 .item-icon-2 {
@@ -423,8 +432,6 @@ body {
     height: 72px;
     background: url(../img/spritesheet.png) no-repeat -190px -90px;
 	margin: 0 auto;
-	margin-bottom: 20px;
-	margin-top: 20px;
 }
 
 .item-icon-3 {
@@ -432,8 +439,6 @@ body {
     height: 74px;
     background: url(../img/spritesheet.png) no-repeat -86px -5px;
 	margin: 0 auto;
-	margin-bottom: 20px;
-	margin-top: 20px;
 }
 
 .item-icon-4 {
@@ -441,8 +446,6 @@ body {
     height: 76px;
     background: url(../img/spritesheet.png) no-repeat -5px -89px;
 	margin: 0 auto;
-	margin-bottom: 20px;
-	margin-top: 20px;
 }
 
 .item-icon-5 {
@@ -450,8 +453,6 @@ body {
     height: 64px;
     background: url(../img/spritesheet.png) no-repeat -5px -5px;
 	margin: 0 auto;
-	margin-bottom: 20px;
-	margin-top: 20px;
 }
 
 .item-icon-6 {
@@ -459,8 +460,6 @@ body {
     height: 75px;
     background: url(../img/spritesheet.png) no-repeat -190px -5px;
 	margin: 0 auto;
-	margin-bottom: 20px;
-	margin-top: 20px;
 }
 
 .advantages-list-item h3 {
@@ -485,6 +484,7 @@ body {
 
 
 /* SUBSCRIBE */
+
 
 .subscribe {
 	height: 637px;
@@ -524,7 +524,6 @@ body {
 	color: #ffffff;
 	display: block;
 	margin-bottom: 20px;
-
 }
 
 .subscribe input {
@@ -562,6 +561,7 @@ body {
 
 
 /* FOOTER */
+
 
 .footer {
 	color: #a4a8bc;
@@ -620,6 +620,7 @@ body {
 .footer-menu a:active {
 	color: rgba(229,146,5,0.5);
 }
+
 
 /*commited to github*/
 
