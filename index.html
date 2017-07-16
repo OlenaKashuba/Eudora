@@ -178,7 +178,8 @@
 								<div class="item-icon-3"> </div>
 							</div>
 							<h3> Desserts </h3>
-							<p> If you are sweet-tooth, don't hesitate to choose from variety of out-of-this-world desserts </p>
+							<p> If you are sweet-tooth, don't hesitate to choose from variety of out-of-this-world desserts 
+							</p>
 							<a class="btn" href="#"> Learn more </a>
 						</li>
 						<li class="advantages-list-item">
@@ -256,6 +257,29 @@
 			</nav>
 		</div>
 	</footer>
+
+	<!-- jQuery plugins --> 
+
+
+	<script 
+	src="https://code.jquery.com/jquery-3.2.1.min.js"></script> 
+
+	<!-- Scroll --> 
+	
+	<script> 
+	$(document).ready(function() { 
+
+	$('a[href^="#"]').click(function(){ 
+	var el = $(this).attr('href'); 
+	$('body').animate({ 
+	scrollTop: $(el).offset().top}, 1000); 
+	return false; 
+	}); 
+
+	}); 
+	</script> 
+
+	<!-- End Scroll -->
 
 </body>
 </html>
